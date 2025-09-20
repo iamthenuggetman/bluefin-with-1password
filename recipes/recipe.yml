@@ -16,6 +16,7 @@ modules:
     fonts:
       nerd-fonts:
         - Hack
+        - JetBrainsMono
   - type: files
     files:
       - source: system
@@ -28,6 +29,7 @@ modules:
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/wezfurlong/wezterm-nightly/repo/fedora-%OS_VERSION%/wezfurlong-wezterm-nightly-fedora-%OS_VERSION%.repo
+
     install:
       - wezterm
 
