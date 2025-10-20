@@ -30,9 +30,11 @@ modules:
     repos:
       - https://copr.fedorainfracloud.org/coprs/wezfurlong/wezterm-nightly/repo/fedora-%OS_VERSION%/wezfurlong-wezterm-nightly-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/scottames/ghostty/repo/fedora-%OS_VERSION%/scottames-ghostty-fedora-%OS_VERSION%.repo
+      - https://download.opensuse.org/repositories/home:manuelschneid3r/Fedora_%OS_VERSION%/home:manuelschneid3r.repo
 
     install:
       - wezterm
       - ghostty
+      - albert
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
