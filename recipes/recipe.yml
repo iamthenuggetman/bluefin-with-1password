@@ -6,7 +6,7 @@ name: bluefin-with-1password
 description: Bluefin with 1password and Brave.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/bluefin-dx:gts
+base-image: ghcr.io/ublue-os/bluefin-dx
 image-version: stable
 
 # module configuration, executed in order
